@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9b48a5-e7bd-498a-bbaf-3f486e4e77ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AddNewGroup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insertGoogle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smallTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testBandcamp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UntitledTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/UntitledTestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddNewGroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddNewGroup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,11 +77,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AddNewGroup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+            <state relative-caret-position="277">
+              <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -118,6 +121,7 @@
         <option value="$PROJECT_DIR$/smallTest.py" />
         <option value="$PROJECT_DIR$/insertGoogle.py" />
         <option value="$PROJECT_DIR$/testBandcamp.py" />
+        <option value="$PROJECT_DIR$/group.py" />
         <option value="$PROJECT_DIR$/AddNewGroup.py" />
       </list>
     </option>
@@ -163,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in AddNewGroup.py">
+  <component name="RunManager" selected="Python tests.pytest for AddNewGroup.UntitledTestCase">
     <configuration name="testBandcamp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,6 +189,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for AddNewGroup.UntitledTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;AddNewGroup.UntitledTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for AddNewGroup.UntitledTestCase.test_add_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;AddNewGroup.UntitledTestCase.test_add_group&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for AddNewGroup.UntitledTestCase.test_untitled_test_case" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,21 +231,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;AddNewGroup.UntitledTestCase.test_untitled_test_case&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for insertGoogle.AppDynamicsJob" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;insertGoogle.AppDynamicsJob&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -230,28 +249,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in insertGoogle.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="selenium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/insertGoogle.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in AddNewGroup.py" />
+        <item itemvalue="Python tests.pytest for AddNewGroup.UntitledTestCase" />
+        <item itemvalue="Python tests.pytest for AddNewGroup.UntitledTestCase.test_add_group" />
         <item itemvalue="Python tests.pytest for AddNewGroup.UntitledTestCase.test_untitled_test_case" />
+        <item itemvalue="Python tests.pytest in AddNewGroup.py" />
         <item itemvalue="Python.testBandcamp" />
-        <item itemvalue="Python tests.pytest for insertGoogle.AppDynamicsJob" />
-        <item itemvalue="Python tests.pytest in insertGoogle.py" />
       </list>
     </recent_temporary>
   </component>
@@ -269,21 +273,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_insertGoogle_py - 2018.12.18 at 16h 14m 30s.xml">
-      <configuration name="pytest in insertGoogle.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_insertGoogle_py - 2018.12.18 at 16h 14m 55s.xml">
-      <configuration name="pytest in insertGoogle.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_insertGoogle_AppDynamicsJob - 2018.12.18 at 16h 15m 34s.xml">
-      <configuration name="pytest for insertGoogle.AppDynamicsJob" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_insertGoogle_AppDynamicsJob_test_app_dynamics_job - 2018.12.18 at 16h 16m 19s.xml">
-      <configuration name="pytest for insertGoogle.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_insertGoogle_AppDynamicsJob_test_app_dynamics_job - 2018.12.18 at 16h 23m 52s.xml">
-      <configuration name="pytest for insertGoogle.AppDynamicsJob.test_app_dynamics_job" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_insertGoogle_py - 2018.12.18 at 16h 24m 14s.xml">
       <configuration name="pytest in insertGoogle.py" configurationId="tests" />
     </history-entry>
@@ -298,6 +287,21 @@
     </history-entry>
     <history-entry file="pytest_in_AddNewGroup_py - 2018.12.20 at 09h 43m 05s.xml">
       <configuration name="pytest in AddNewGroup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_AddNewGroup_UntitledTestCase_test_untitled_test_case - 2018.12.20 at 09h 53m 21s.xml">
+      <configuration name="pytest for AddNewGroup.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_AddNewGroup_UntitledTestCase - 2018.12.20 at 09h 55m 51s.xml">
+      <configuration name="pytest for AddNewGroup.UntitledTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_AddNewGroup_UntitledTestCase - 2018.12.20 at 10h 04m 26s.xml">
+      <configuration name="pytest for AddNewGroup.UntitledTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_AddNewGroup_UntitledTestCase_test_add_group - 2018.12.20 at 10h 26m 30s.xml">
+      <configuration name="pytest for AddNewGroup.UntitledTestCase.test_add_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_AddNewGroup_UntitledTestCase - 2018.12.20 at 10h 27m 48s.xml">
+      <configuration name="pytest for AddNewGroup.UntitledTestCase" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -376,10 +380,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AddNewGroup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        <state relative-caret-position="277">
+          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
