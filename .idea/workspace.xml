@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d9b48a5-e7bd-498a-bbaf-3f486e4e77ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/AddNewGroup.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/AddNewGroup.py" afterDir="false" />
     </list>
@@ -17,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/AddNewGroup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
               </folding>
@@ -27,10 +28,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -73,9 +95,10 @@
         <option value="$PROJECT_DIR$/group.py" />
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/AddNewGroup.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/AddNewGroup.py" />
+        <option value="$PROJECT_DIR$/fixture/group.py" />
       </list>
     </option>
   </component>
@@ -143,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for AddNewGroup.test_add_empty_group">
+  <component name="RunManager" selected="Python tests.pytest in AddNewGroup.py">
     <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="selenium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,8 +265,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for AddNewGroup.test_add_empty_group" />
         <item itemvalue="Python tests.pytest in AddNewGroup.py" />
+        <item itemvalue="Python tests.pytest for AddNewGroup.test_add_empty_group" />
         <item itemvalue="Python tests.pytest for test.AddNewGroup.test_add_group" />
         <item itemvalue="Python tests.pytest for test.AddNewGroup.test_add_empty_group" />
         <item itemvalue="Python.application" />
@@ -264,12 +287,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_AddNewGroup_py - 2018.12.20 at 11h 12m 13s.xml">
-      <configuration name="pytest in AddNewGroup.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_AddNewGroup_py - 2018.12.20 at 11h 13m 06s.xml">
-      <configuration name="pytest in AddNewGroup.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_AddNewGroup_test_add_empty_group - 2018.12.20 at 11h 15m 09s.xml">
       <configuration name="pytest for AddNewGroup.test_add_empty_group" configurationId="tests" />
     </history-entry>
@@ -294,6 +311,12 @@
     <history-entry file="pytest_in_AddNewGroup_py - 2018.12.20 at 11h 37m 59s.xml">
       <configuration name="pytest in AddNewGroup.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_AddNewGroup_test_add_empty_group - 2018.12.20 at 12h 22m 13s.xml">
+      <configuration name="pytest for AddNewGroup.test_add_empty_group" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_AddNewGroup_py - 2018.12.20 at 12h 23m 14s.xml">
+      <configuration name="pytest in AddNewGroup.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -303,8 +326,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33586133" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33586133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,6 +349,23 @@
     <entry file="file://$PROJECT_DIR$/selenium_script.py" />
     <entry file="file://$PROJECT_DIR$/insertGoogle.py" />
     <entry file="file://$PROJECT_DIR$/testBandcamp.py" />
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/model/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -333,24 +373,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+    <entry file="file://$PROJECT_DIR$/fixture/group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/AddNewGroup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#24#59#0" expanded="true" />
           </folding>
