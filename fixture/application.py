@@ -1,4 +1,5 @@
 from  selenium.webdriver.firefox.webdriver import WebDriver
+from fixture.session import SessionHelper
 
 
 class Application:
@@ -6,21 +7,11 @@ class Application:
     def __init__(self):
         self.driver = WebDriver();
         self.driver.implicitly_wait(60)
+        self.session = SessionHelper(self)
 
     def open_page(self):
         driver = self.driver
         driver.get("http://localhost/addressbook/")
-
-    def login(self, username, password):
-        driver = self.driver
-        self.open_page()
-        driver.find_element_by_name("user").click()
-        driver.find_element_by_name("user").clear()
-        driver.find_element_by_name("user").send_keys(username)
-        driver.find_element_by_name("pass").clear()
-        driver.find_element_by_name("pass").send_keys(password)
-        driver.find_element_by_xpath(
-            "(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[2]").click()
 
     def open_group_page(self):
         driver = self.driver
@@ -47,10 +38,6 @@ class Application:
         driver.find_element_by_name("group_footer").send_keys(group.footer)
         driver.find_element_by_name("submit").click()
         self.return_to_group_page()
-
-    def logout(self):
-        driver = self.driver
-        driver.find_element_by_link_text("Logout").click()
 
     def destroy(self):
         self.driver.quit()
