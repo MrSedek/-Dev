@@ -1,3 +1,4 @@
+"""
 class NewUser:
     def __init__(self, fName, mName, lName, nickName, photo, title, company, address, hTel, mTel, wTel, eMail, homepage, sAddress, sHome, sNotes):
         self.fName = fName
@@ -17,3 +18,5 @@ class NewUser:
         self.sAddress = sAddress
         self.sHome = sHome
         self.sNotes = sNotes
+
+"""

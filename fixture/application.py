@@ -2,7 +2,7 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 
 from fixture.group import GroupHelper
 from fixture.session import SessionHelper
-from fixture.new_user import NewUserHelper
+# from fixture.new_user import NewUserHelper
 
 
 class Application:
@@ -13,7 +13,7 @@ class Application:
         self.driver.implicitly_wait(60)
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
-        self.new_user = NewUserHelper(self)
+#        self.new_user = NewUserHelper(self)
 
     def open_page(self):
         driver = self.driver

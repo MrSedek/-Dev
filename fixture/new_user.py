@@ -1,7 +1,7 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 
-
+"""
 class NewUserHelper:
     def __init__(self, app):
         self.app = app
@@ -64,3 +64,5 @@ class NewUserHelper:
         driver.find_element_by_xpath(
             "(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[1]").click()
         self.return_to_home_page()
+        
+"""
