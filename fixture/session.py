@@ -1,3 +1,6 @@
+import time
+
+
 class SessionHelper:
 
     def __init__(self, app):
@@ -17,4 +20,5 @@ class SessionHelper:
     def logout(self):
         driver = self.app.driver
         driver.find_element_by_link_text("Logout").click()
+        time.sleep(1)
 
