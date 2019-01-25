@@ -14,11 +14,12 @@ class SessionHelper:
         driver.find_element_by_name("user").send_keys(username)
         driver.find_element_by_name("pass").clear()
         driver.find_element_by_name("pass").send_keys(password)
-        driver.find_element_by_xpath(
-            "(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[2]").click()
+        # driver.find_element_by_xpath("css=input[type='submit']").click()
+        driver.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
+
 
     def logout(self):
         driver = self.app.driver
-        driver.find_element_by_link_text("Logout").click()
+        driver.find_element_by_xpath("//*[@id='top']/form/a").click()
         time.sleep(1)
 
