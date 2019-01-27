@@ -15,6 +15,13 @@ class Application:
         self.group = GroupHelper(self)
 #        self.new_user = NewUserHelper(self)
 
+    def is_valid(self):
+        try:
+            self.driver.current_url
+            return True
+        except:
+            return False
+
     def open_page(self):
         driver = self.driver
         driver.get("http://localhost/addressbook/")

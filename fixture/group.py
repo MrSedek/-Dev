@@ -29,6 +29,7 @@ class GroupHelper:
         self.open_group_page()
         driver.find_element_by_name("new").click()
         self.fill_group_form(group)
+        driver.find_element_by_name("submit").click()
         self.return_to_group_page()
 
     def select_first_group(self):
@@ -52,7 +53,7 @@ class GroupHelper:
     def delete_first_group(self):
         driver = self.app.driver
         self.open_group_page()
-        self.select_first_group(driver)
+        self.select_first_group()
         # submit deletion
         driver.find_element_by_name("delete").click()
         self.return_to_group_page()
