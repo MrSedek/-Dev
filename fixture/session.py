@@ -22,3 +22,4 @@ class SessionHelper:
         driver = self.app.driver
         driver.find_element_by_xpath("//*[@id='top']/form/a").click()
         time.sleep(1)
+

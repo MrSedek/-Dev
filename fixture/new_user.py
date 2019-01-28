@@ -64,5 +64,5 @@ class NewUserHelper:
         driver.find_element_by_xpath(
             "(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[1]").click()
         self.return_to_home_page()
-        
+
 """
