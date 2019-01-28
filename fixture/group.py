@@ -60,3 +60,8 @@ class GroupHelper:
         # submit deletion
         driver.find_element_by_name("delete").click()
         self.return_to_group_page()
+
+    def count(self):
+        driver = self.app.driver
+        self.open_group_page()
+        return len(driver.find_elements_by_name("selected[]"))
