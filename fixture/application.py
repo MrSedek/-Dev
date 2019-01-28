@@ -13,7 +13,6 @@ class Application:
                                 firefox_binary=r'C:/Program Files/Mozilla Firefox/firefox.exe')
 #        self.driver = WebDriver(executable_path=r'd:/~Sedek/WebDrivers/chromedriver.exe',
 #                                chrome_binary=r'"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"')
-        self.driver.implicitly_wait(5)
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
 #        self.new_user = NewUserHelper(self)

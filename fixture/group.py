@@ -5,7 +5,8 @@ class GroupHelper:
     def open_group_page(self):
         driver = self.app.driver
         # driver.find_element_by_link_text("group").click()
-        driver.find_element_by_link_text('Группы').click()
+        if not (driver.current_url.endswith("/groups.php") and len(driver.find_elements_by_name("new")) > 0):
+            driver.find_element_by_link_text('Группы').click()
 
     def return_to_group_page(self):
         driver = self.app.driver
