@@ -10,7 +10,7 @@ class Application:
 
     def __init__(self):
         self.driver = WebDriver(executable_path=r'd:/~Sedek/WebDrivers/geckodriver.exe',
-                                firefox_binary=r'C:/Program Files/Mozilla Firefox/firefox.exe')
+                                firefox_binary=r'c:/Program Files/Mozilla Firefox/firefox.exe')
 #        self.driver = WebDriver(executable_path=r'd:/~Sedek/WebDrivers/chromedriver.exe',
 #                                chrome_binary=r'"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"')
         self.session = SessionHelper(self)

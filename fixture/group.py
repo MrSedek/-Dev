@@ -1,3 +1,9 @@
+import logging
+from model.group import Group
+
+LOGGER = logging.getLogger(__name__)
+
+
 class GroupHelper:
     def __init__(self, app):
         self.app = app
@@ -66,3 +72,19 @@ class GroupHelper:
         driver = self.app.driver
         self.open_group_page()
         return len(driver.find_elements_by_name("selected[]"))
+
+    def get_group_list(self):
+        driver = self.app.driver
+        self.open_group_page()
+        group_list = []
+        print(driver.find_elements_by_xpath("//input[@name='selected[]']"))
+
+        for element in driver.find_elements_by_xpath("//input[@name='selected[]']"):
+            title_element = element.get_attribute("title") [8:-1]
+            id = element.get_attribute("value")
+            group_list.append(Group(name = title_element, id = id))
+            # print(element.text)
+            # print(element.title)
+        # group_list.append(driver.find_elements_by_name("selected[]").title)
+        return group_list
+        
