@@ -3,6 +3,7 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 
 from fixture.group import GroupHelper
 from fixture.session import SessionHelper
+from fixture.contact import ContactHelper
 # from fixture.new_user import NewUserHelper
 
 
@@ -15,6 +16,7 @@ class Application:
 #                                chrome_binary=r'"C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"')
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
+        self.contact = ContactHelper(self)
 #        self.new_user = NewUserHelper(self)
 
     def open_page(self):
