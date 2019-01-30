@@ -1,4 +1,7 @@
 import logging
+from time import sleep
+import re
+
 from model.contact import Contact
 
 LOGGER = logging.getLogger(__name__)
@@ -65,21 +68,6 @@ class ContactHelper:
     def get_contact_info_from_edit_page(self, index):
         driver = self.app.driver
         self.open_contact_to_edit_by_index(index)
-        print('1 =============================================================')
-        content = driver.find_elements_by_id('content')
-        print('2 =============================================================')
-        print(content)
-        print('3 =============================================================')
-        content_text = driver.find_element_by_id('content').find_element_by_name('firstname').get_attribute('value')
-        print('4 =============================================================')
-        print(content_text)
-        print('5 =============================================================')
-        all_data = driver.find_element_by_xpath('//*[@id="content"]/form[1]/input[3]').get_attribute("value")
-        print('6 =============================================================')
-        print(all_data)
-        print('7 =============================================================')
-        print('8 =============================================================')
-        print('9 =============================================================')
         firstname = driver.find_element_by_name("firstname").get_attribute("value")
         lastname = driver.find_element_by_name("lastname").get_attribute("value")
         id = driver.find_element_by_name("id").get_attribute("value")
@@ -88,6 +76,17 @@ class ContactHelper:
         workphone = driver.find_element_by_name("work").get_attribute("value")
         secondaryphone = driver.find_element_by_name("phone2").get_attribute("value")
         return Contact(firstname=firstname, lastname=lastname, id=id, homephone=homephone, mobilephone=mobilephone, workphone=workphone, secondaryphone=secondaryphone)
+
+    def get_contact_info_from_view_page(self,index):
+        driver = self.app.driver
+        self.open_contact_to_view_by_index(index)
+        content = driver.find_element_by_id("content").text
+        homephone = re.search("H: (.*)", content).group(1)
+        mobilephone = re.search("M: (.*)", content).group(1)
+        workphone = re.search("W: (.*)", content).group(1)
+        secondaryphone = re.search("P: (.*)", content).group(1)
+        return Contact(homephone=homephone, mobilephone=mobilephone,
+                       workphone=workphone, secondaryphone=secondaryphone)
 
     def count(self):
         driver = self.app.driver

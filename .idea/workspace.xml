@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="72" column="74" selection-start-line="72" selection-start-column="74" selection-end-line="72" selection-end-column="74" />
+            <state relative-caret-position="246">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="495" selection-start-line="495" selection-end-line="495" />
+            <state relative-caret-position="1025">
+              <caret line="531" column="8" selection-start-line="531" selection-start-column="8" selection-end-line="531" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -39,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="5543">
               <caret line="241" selection-start-line="241" selection-end-line="241" />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="414">
               <caret line="23" column="37" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="37" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_phones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="338">
+              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -79,6 +79,7 @@
     <findStrings>
       <find>AppDynamicsJob</find>
       <find>repr</find>
+      <find>find_elements_by_tag_name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,8 +112,8 @@
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/tesst_phones.py" />
         <option value="$PROJECT_DIR$/model/contact.py" />
-        <option value="$PROJECT_DIR$/test/test_phones.py" />
         <option value="$PROJECT_DIR$/fixture/contact.py" />
+        <option value="$PROJECT_DIR$/test/test_phones.py" />
       </list>
     </option>
   </component>
@@ -127,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,7 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,34 +283,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 13m 27s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 09h 46m 30s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 14m 20s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 09h 50m 32s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 14m 44s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 01m 08s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 15m 20s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 04m 35s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 15m 41s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 06m 47s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 18m 05s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 08m 14s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 18m 39s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 24m 14s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 18m 58s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 25m 43s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 22m 42s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 32m 17s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_phones_py - 2019.01.29 at 17h 23m 08s.xml">
+    <history-entry file="pytest_in_test_phones_py - 2019.01.30 at 10h 33m 40s.xml">
       <configuration name="pytest in test_phones.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -324,7 +325,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25574112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,15 +352,6 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/contact.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
         <watch expression="len(driver.find_elements_by_xpath(&quot;//*[@id='top']/form/a&quot;))" language="Python" />
@@ -582,9 +573,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5543">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="414">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="37" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
@@ -592,34 +590,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="495" selection-start-line="495" selection-end-line="495" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_phones.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="1025">
+          <caret line="531" column="8" selection-start-line="531" selection-start-column="8" selection-end-line="531" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="72" column="74" selection-start-line="72" selection-start-column="74" selection-end-line="72" selection-end-column="74" />
+        <state relative-caret-position="246">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_phones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
         </state>
       </provider>
     </entry>
