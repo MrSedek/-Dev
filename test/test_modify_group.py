@@ -1,6 +1,6 @@
 from model.group import Group
 from random import randrange
-
+"""
 def test_modify_group_name(app):
     if app.group.count() == 0:
         app.group.create(Group(name='test'))
@@ -24,6 +24,7 @@ def test_modify_group_name(app):
     # print(new_groups[0].name)
     assert sorted(old_groups, key=Group.id_or_max) == sorted(new_groups, key=Group.id_or_max)
 
+"""
 """
 def test_modify_group_header(app):
     if app.group.count() == 0:

@@ -12,11 +12,11 @@ class ContactHelper:
     def __init__(self, app):
         self.app = app
 
-    def open_contact_page(self):
+    def open_home_page(self):
         driver = self.app.driver
         # driver.find_element_by_link_text("group").click()
         if not (driver.current_url.endswith("/addressbook/") or driver.current_url.endswith("index.php") and len(driver.find_elements_by_name("MainForm")) > 0):
-            driver.find_element_by_link_text('Добавить контакт').click()
+            driver.find_element_by_link_text('Главная').click()
 
 #    def return_to_home_page(self):
 #        driver = self.app.driver
@@ -36,7 +36,7 @@ class ContactHelper:
     def get_contact_list(self):
         if self.contact_cache is None:
             driver = self.app.driver
-            self.open_contact_page()
+            self.open_home_page()
             self.contact_cache = []
             for row in driver.find_elements_by_name("entry"):
                 cells = row.find_elements_by_tag_name("td")
@@ -51,12 +51,12 @@ class ContactHelper:
 
     def open_contact_to_edit_by_index(self, index):
         driver = self.app.driver
-        self.open_contact_page()
+        self.open_home_page()
         driver.get('http://localhost/addressbook/edit.php?id=' + str(index))
 
     def open_contact_to_view_by_index(self, index):
         driver = self.app.driver
-        self.open_contact_page()
+        self.open_home_page()
         driver.get('http://localhost/addressbook/view.php?id=' + str(index))
 
     def get_contact_info_from_edit_page(self, index):
@@ -84,7 +84,7 @@ class ContactHelper:
 
     def count(self):
         driver = self.app.driver
-        self.open_contact_page()
+        self.open_home_page()
         return len(driver.find_elements_by_name("selected[]"))
 """
     def fill_group_form(self, group):
