@@ -44,14 +44,8 @@ class ContactHelper:
                 name = cells[2].text.split(' ')
                 firstname = name[2]
                 lastname = name[1]
-                all_phones = cells[5].text.splitlines()
-                homephone = all_phones[0]
-                mobilephone = all_phones[1]
-                workphone = all_phones[2]
-                secondaryphone = all_phones[3]
-                self.contact_cache.append(Contact(firstname=firstname, lastname=lastname, id=id,
-                                                  homephone=homephone, mobilephone=mobilephone,
-                                                  workphone=workphone, secondaryphone=secondaryphone))
+                all_phones = cells[5].text
+                self.contact_cache.append(Contact(firstname=firstname, lastname=lastname, id=id, all_phones=all_phones))
                 print(self.contact_cache[0])
         return list(self.contact_cache)
 
