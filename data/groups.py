@@ -1,12 +1,12 @@
 from model.group import Group
-import random
-import string
+# import random
+# import string
 
-constant = [
+testdata = [
     Group(name="name1", header="header1", footer="footer1"),
-    Group(name="name2", header="header2", footer="footer2"),
+    Group(name="name2", header="header2", footer="footer2")
 ]
-
+"""
 def random_string(prefix, maxlen):
     # symbols = string.ascii_letters+string.digits + string.punctuation + ' '*10
     symbols = string.ascii_letters+string.digits + ' '*10
@@ -20,3 +20,4 @@ testdata = [Group(name="", header="", footer="")] + [
     # for header in ["", random_string('header', 20)]
     # for footer in ["", random_string('footer', 20)]
 ]
+"""
