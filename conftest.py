@@ -23,7 +23,7 @@ def load_config(file):
 def app(request):
     global fixture
     global target
-    # browser = request.config.getoption("--browser")
+    browser = request.config.getoption("--browser")
     webconfig = load_config(request.config.getoption("--target"))["web"]
     if fixture is None or not fixture.is_valid():
         fixture = Application(browser=browser, base_url=webconfig['baseUrl'])
